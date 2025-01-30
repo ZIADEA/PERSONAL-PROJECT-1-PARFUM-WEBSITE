@@ -1,0 +1,59 @@
+body{
+    scrollbar-width: 0;
+    scroll-behavior: 5PX;
+    max-width: 1500px;
+    max-width: 1500px;
+    background-color: rgb(223, 73, 143)
+}
+header{
+    background: url(image-de-parfum/gettyimages-1029466556-1024x1024.jpg);
+    height: 200px;
+}
+main{
+    margin-left: 250PX;
+}
+.container-main > div{
+    background-position-y: 50PX;
+}
+main{
+background-attachment: fixed;
+background-color: rgb(248, 248, 248);
+
+}
+.container-main main .container-1 {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: baseline;
+flex-wrap: wrap;
+flex-basis: 100%;
+}
+a{
+    color: rgb(194, 128, 166);
+}
+
+
+.container-1 img{
+    width: 459PX;
+    height: 700px;
+    margin: 50px;
+border-style: inset;
+flex: 0 0 33%;
+
+}
+@media screen and (max-width : 500PX ) {
+    .container-1 img {
+        max-width: 25%;
+    };
+}
+
+.container-sp2{
+    background: linear-gradient(black,gray);
+    box-shadow: inset;
+}
+
+ footer{
+    background-color: rgb(0, 0, 0);
+}
+
+
